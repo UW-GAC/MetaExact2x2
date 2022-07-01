@@ -1,0 +1,20 @@
+Package: MetaExact2x2
+Title: Exact inference for meta-analysis of 2x2 tables
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Spencer", "Hansen", role = "aut"),
+    person("Matthew P.", "Conomos", email = "mconomos@uw.edu", role = c("aut", "cre")),
+    person("Kenneth M.", "Rice", email = "kenrice@uw.edu", role = "aut")
+  )
+Description: Computes exact confidence intervals and p-values for
+  meta-analysis of 2x2 tables
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Depends:
+    R (>= 2.10)
+LazyData: true
+Imports:
+  numDeriv,
+  poisbinom
